@@ -1,0 +1,79 @@
+body {
+  font-family: "Karla";
+}
+
+.card {
+  border-radius: 10px;
+  margin: 10% 25%;
+}
+
+.card-body h4 {
+  color: hsl(179, 62%, 43%);
+  font-weight: 700;
+}
+
+.card-body h5 {
+  color: hsl(71, 73%, 54%);
+  font-weight: 700;
+}
+
+.card-body p {
+  color: hsl(218, 22%, 67%);
+  font-weight: 400;
+}
+
+.first, .second {
+  background-color: hsl(179, 62%, 43%);
+  color: hsl(204, 43%, 93%);
+}
+
+.first {
+  border-bottom-left-radius: 10px;
+}
+
+.second {
+  border-bottom-right-radius: 10px;
+  opacity: 75%;
+}
+
+.sub-title {
+  font-weight: 700;
+}
+
+.charge {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.period {
+  font-weight: 400;
+}
+
+.btn {
+  background-color: hsl(71, 73%, 54%);
+  color: hsl(204, 43%, 93%);
+}
+
+.btn:hover {
+  color: hsl(204, 43%, 93%);
+  opacity: 50%;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media screen and (max-width: 768px) {
+  .first {
+    border-bottom-left-radius: 0;
+  }
+
+  .second {
+    border-bottom-left-radius: 10px;
+  }
+}
